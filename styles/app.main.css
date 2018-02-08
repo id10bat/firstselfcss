@@ -1,0 +1,211 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+header {
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+section {
+    background-color: rgba(199, 199, 199, 0.37);
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+}
+
+article {
+    height: 200px;
+    float: left;
+    margin: 10% 0% 0% 10%;
+}
+
+ul.ul-bar li a:hover:not(.active) {background-color: rgba(124, 124, 124, 0.103);}
+
+ul.ul-bar li a.active {
+    background-color: rgb(31, 160, 199);
+    color: rgb(255, 255, 255)!important;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+.ul-bar {
+    margin-right: 10%;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    bottom: 0;
+}
+
+
+.bar-color-text {
+    color: rgb(31, 160, 199)!important;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+nav.bar-color-text {
+    background-color: #fff!important;
+}
+
+.bar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bar .bar-item-left {
+    padding: 0px 0px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+}
+
+h1.bar-color-text{
+    margin: 15px
+}
+
+.bar .bar-item-right {
+    padding: 0px 0px;
+    float: right;
+    width: auto;
+    border: none;
+    display: block;
+}
+
+.bar .bar-button {
+    white-space: normal;
+    user-select: none;
+    border: none;
+    display: inline-block;
+    padding: 20px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.bar-shadow {
+    box-shadow: 0 2px 5px 0 rgba(19, 19, 19, 0.342), 0 2px 10px 0 rgba(29, 29, 29, 0.144);
+}
+
+.bar-top {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.bar-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+}
+
+.box-image {
+    width: 100%;
+}
+
+.box-p {
+    color: rgb(31, 160, 199)!important;
+    background-color: #fff;
+    bottom: 0;
+    height: 40px;
+}
+
+.box-article {
+    background-color: rgb(31, 160, 199);
+    color: rgb(255, 255, 255)!important;
+    height: 160px;
+    width: 200px;
+    font-size: 30px;
+}
+
+div.box-article h1 {
+    padding: 32% 0%;
+    text-align: center;
+}
+
+div.box-p p {
+    padding: 5% 0%;
+    text-align: center;
+}
+
+header.bar-shadow {
+    z-index: 1;
+}
+
+footer.bar-bottom {
+    color: #fff;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+.drawing {
+    height: 700px;
+}
+
+div.bar-color-text h1 {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+}
+
+div.bar-color-text {
+    padding-top: 5%;
+}
+
+.animation {
+    height: 600px;
+}
+
+.form-regis {
+    background-color: rgb(255, 255, 255);
+    margin: 10%;
+    border-radius: 8px;
+}
+
+.form-regis form {
+    background-color: rgb(255, 255, 255);
+    margin: 2%;
+    top: 0;
+    padding: 5% 0%;
+}
+
+.set-input {
+    height: 20px;
+    width: 100%;
+    font-size: 18px;
+}
+
+p.bar-color-text{
+    margin: 3% 0% 1%;
+}
+
+.button {
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    margin: 3% 0% 0% 0%;
+    color: #fff;
+    font-size: 15px;
+    background-color: rgb(31, 160, 199);
+}
+form p{
+    color: rgb(31, 160, 199);
+}
